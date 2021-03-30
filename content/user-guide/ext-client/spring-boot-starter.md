@@ -18,11 +18,11 @@ your `pom.xml` file:
 <dependency>
   <groupId>org.camunda.bpm.springboot</groupId>
   <artifactId>camunda-bpm-spring-boot-starter-external-task-client</artifactId>
-  <version>{{< minor-version >}}.0</version>
+  <version>7.15.0-alpha5</version>
 </dependency>
 ```
 
-Please check out our [External Task Client Spring Boot Starter Examples](https://github.com/camunda/camunda-bpm-examples/tree/{{<minor-version>}}#external-task-client-spring-boot).
+Please check out our [External Task Client Spring Boot Starter Examples](https://github.com/camunda/camunda-bpm-examples/tree/master#external-task-client-spring-boot).
 
 The Client can subscribe to one or more topic names that are defined in your BPMN process model.
 When the execution waits in an External Task, the Client executes your custom business logic. 
@@ -577,7 +577,7 @@ to your `pom.xml` file:
 <dependency>
   <groupId>org.camunda.bpm</groupId>
   <artifactId>camunda-external-task-client-spring</artifactId>
-  <version>{{< minor-version >}}.0</version>
+  <version>7.15.0-alpha5</version>
 </dependency>
 ```
 
